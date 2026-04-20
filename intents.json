@@ -1,0 +1,49 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey", "Good morning"],
+      "responses": ["Hello! How can I help you today?", "Hi there! What can I do for you?"]
+    },
+    {
+      "tag": "admissions",
+      "patterns": ["How do I apply for admission?", "What are the admission requirements?", "Tell me about the admission process"],
+      "responses": ["Thank you for your interest in GD goenka! The admission process starts in August. You can apply online through our website. You'll need your high school transcripts and a completed application form."]
+    },
+    {
+      "tag": "fees",
+      "patterns": ["What is the tuition fee?", "How much are the fees for computer science?", "Fee structure"],
+      "responses": ["The annual tuition fee for undergraduate programs is Rs 100,000. For specific program fees, please visit the fees section on our website."]
+    },
+    {
+      "tag": "courses",
+      "patterns": ["What courses do you offer?", "List of available programs", "What can I study?"],
+      "responses": ["We offer a range of courses in Engineering, Business, Arts, and Sciences. Popular programs include Computer Science, Mechanical Engineering, and Business Administration."]
+    },
+    {
+      "tag": "scholarships",
+      "patterns": ["Are there any scholarships?", "Tell me about financial aid", "How can I apply for a scholarship?", "Scholarship options"],
+      "responses": ["Yes, we offer a variety of merit-based and need-based scholarships. You can find all the details and application forms on the 'Financial Aid' section of our website."]
+    },
+    {
+      "tag": "facilities",
+      "patterns": ["What facilities are on campus?", "Tell me about the library", "Are there sports facilities?", "What about campus life?"],
+      "responses": ["Our campus is equipped with a modern library, state-of-the-art labs, sports complexes for various games, and several student clubs. There's a vibrant campus life waiting for you!"]
+    },
+    {
+      "tag": "contact",
+      "patterns": ["How can I contact the college?", "What is the address?", "Who should I contact for admissions?"],
+      "responses": ["You can contact the admissions office at +91 982343XXX or via email at http://gdgoenkauniversity.com/ Our campus is located at Sohna Rural, Haryana."]
+    },
+    {
+      "tag": "deadline",
+      "patterns": ["What is the application deadline?", "When do applications close?", "Last date to apply"],
+      "responses": ["The application deadline for the upcoming Fall semester is Jully 31st 2025 . We recommend applying early to avail exciting offers!"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "Goodbye", "See you later"],
+      "responses": ["Goodbye! Have a great day.", "See you later!"]
+    }
+  ]
+}
